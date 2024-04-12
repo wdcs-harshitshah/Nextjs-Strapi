@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "themes",
+  "info": {
+    "singularName": "theme",
+    "pluralName": "themes",
+    "displayName": "theme"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Theme": {
+      "type": "enumeration",
+      "enum": [
+        "light",
+        "medium",
+        "dark"
+      ]
+    },
+    "required": {
+      "type": "boolean"
+    }
+  }
+}
